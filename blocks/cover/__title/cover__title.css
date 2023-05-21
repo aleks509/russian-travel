@@ -1,0 +1,12 @@
+.cover__title {
+    margin: 0;
+    padding: 0;
+    max-width: 560px;
+    font-weight: 900;
+    font-size: clamp(32px,10vw, 72px);
+    line-height: clamp(35px, 10vw, 76px);
+    z-index: 0;
+    text-decoration: none;
+    color: #ffffff;
+  }
+

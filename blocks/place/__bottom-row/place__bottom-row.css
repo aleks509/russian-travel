@@ -1,0 +1,4 @@
+.place__top-row {
+    display: flex;
+    outline: 2px solid yellowgreen;
+}
