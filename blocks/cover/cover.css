@@ -15,7 +15,7 @@
   .cover::after {
     content:"";
     width: 0;
-    height:0 ;
+    height: 0;
     margin-left: -1px;
     padding-top: calc(740/ 1184 * 100%);
   }
