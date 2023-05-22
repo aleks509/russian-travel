@@ -1,29 +1,18 @@
 .cover {
     font-family: 'Inter',  Arial, Helvetica, sans-serif;
-    margin: 92px 48px 0;
-    background-image: url(/images/cover-trains.jpg);
-    background-repeat: no-repeat;
+    margin: 0 48px 0;
     display: flex;
-    background-size: contain;
-    background-position: center;
     text-align: center;
     text-decoration: none;
     color: #ffffff;
     box-sizing: border-box;
   }
   
-  .cover::after {
-    content:"";
-    width: 0;
-    height: 0;
-    margin-left: -1px;
-    padding-top: calc(740/ 1184 * 100%);
-  }
-
   @media screen and (max-width: 1024px) {
     .cover {
       margin-right: 0;
       margin-left: 0;
     }
   }
-    
+
+  

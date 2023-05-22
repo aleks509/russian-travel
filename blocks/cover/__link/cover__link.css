@@ -2,16 +2,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 1280px;
     width: 100%;
+    height: 100%;
     flex-direction: column;
     position: relative;
     text-decoration: none;
     aspect-ratio: 16/10; 
+    background-image: url(../../../images/cover-trains.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
   }
   
   .cover__link::before {
     content: "";
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(42, 44, 47, 0.3);
     transition: background-color 1s ease;
     top: 0;
     right: 0;
@@ -22,13 +29,7 @@
   
   .cover__link:hover::before {
     content: "";
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(42, 44, 47, 0.8);
     transition: background-color 1s ease;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
     position: absolute;
-    text-decoration: none;
-    color: #ffffff;
   }

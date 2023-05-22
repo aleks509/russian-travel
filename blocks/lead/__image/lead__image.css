@@ -12,16 +12,9 @@
     
    }
 }
-  @media screen and (min-width: 769px) and (max-width: 1024px) {
+  @media screen and  (max-width: 1024px) {
     .lead__image {
-      height: calc(100% - 200px - 72px - 32px - 56px);
       padding-top: 56px;
-    }
-  }
-
-  @media screen and (max-width: 768px) {
-    .lead__image {
-      min-height: 50%;
     }
   }
 
