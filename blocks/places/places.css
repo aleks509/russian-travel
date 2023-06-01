@@ -1,7 +1,7 @@
 .places {
  margin: 0 auto;
- display: grid;
- row-gap: 80px;
+ display: flex;
+ flex-direction: column;
  max-width: 1016px;
  padding-top: 97px;
  padding-bottom: 93px;
@@ -27,7 +27,6 @@
       padding-right: 0px;
       padding-top: 89px;
       padding-bottom: 84px;
-      row-gap: 73px;
    }   
   }
 
@@ -45,7 +44,6 @@
       padding-right: 0px;
       padding-top: 64px;
       padding-bottom: 65px;
-      row-gap: 50px;
       max-width: 320px;
       width: 100%;
   }

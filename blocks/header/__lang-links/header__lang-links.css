@@ -19,7 +19,9 @@
     }
   }
 
-@media screen and (max-width: 320px) {
+
+
+@media screen and (max-width: 500px) {
   .header__lang-links {
     padding: 15px 16px 0;
   }
