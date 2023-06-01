@@ -1,37 +1,43 @@
 .photo-grid {
     font-family: 'Inter',  Arial, sans-serif;
-    margin-left: 0;
-    margin-right: 0;
-    padding: 92px 48px 0;
-    max-width: 1280px;
-    width: 100%;
+    margin: 0 auto;
+    padding: 92px 0 0 11px;
+    max-width: 1184px;
     display: grid;
-    grid-template-columns: repeat(4, 284px);
+    grid-template-columns: repeat(4, 1fr);
     gap: 16px;
     box-sizing: border-box;
+    object-fit: cover;
+    justify-content: center;
   }
 
-  @media screen and (max-width: 1279px) {
+  @media screen and (max-width: 1250px) {
     .photo-grid {
-      grid-template-columns: repeat(3, 300px);
-      gap: 14px;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 13px;
+      padding-top: 90px;
+      padding-left: 45px;
+      padding-right: 25px;
     }
   }
 
-  @media screen and (max-width: 1023px) {
-    .photo-grid {
-      grid-template-columns: repeat(2, 1fr);
-      gap: 16px;
-      padding-top: 88px;
-    }
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    padding-top: 90px;
+    padding-left: 23px;
+    padding-right: 23px;
+    width: 100%;
   }
+}
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 320px) {
   .photo-grid {
     grid-template-columns: 1fr;
     gap: 12px;
     padding-top: 64px;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 15px;
+    padding-right: 14px;
   }
 }

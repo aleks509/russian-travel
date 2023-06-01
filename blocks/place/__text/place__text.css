@@ -6,8 +6,16 @@
   gap: 26px;
   }
 
+  @media screen and (max-width: 768px) {
+    .place__text {
+      gap: 25px;
+
+    }
+  }
+
   @media screen and (max-width: 320px) {
     .place__text {
       padding-left: 16px;
+      padding-right: 16px;
     }
   }
