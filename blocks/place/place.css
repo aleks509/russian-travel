@@ -1,12 +1,12 @@
 .place {
   display: grid;
   grid-template-columns: 460px 1fr;
-  column-gap: 40px;
+  column-gap: 37px;
   row-gap: 48px;
   padding: 0 0 80px;
   }
 
-  .place:last-child {
+  .place:last-of-type {
     padding: 0 0 0px;
   }
 
@@ -47,7 +47,10 @@
    padding: 0 0 50px;
  } 
  
- .place:nth-child(4) {
-    padding: 0 0 76px;
+ .place:nth-of-type(4) {
+    padding: 0 0 60px;
  }
+ .place:nth-of-type(5) {
+  padding: 15px 0 0px;
+}
 }
